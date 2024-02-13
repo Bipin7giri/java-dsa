@@ -1,0 +1,30 @@
+
+Stacks in Java for DSA Practice
+Stacks are fundamental data structures with various applications in computer science. In Java, you can work with stacks using the built-in Stack class or implement your own. Here's how you can explore stacks for DSA practice in Java:
+
+Understanding the Basics:
+
+LIFO (Last In, First Out): Elements are added (pushed) and removed (popped) from the top. Think of it like a pile of plates where you add new ones on top and remove the most recent one first.
+Operations: The main operations are push(), pop(), peek(), isEmpty(), and size().
+Practice Implementation:
+
+Built-in Stack class: Import the java.util.Stack class and use its methods for basic operations. This is a good starting point, but it might not offer advanced features.
+Custom implementation: Create your own stack using an array or linked list. This allows you to understand the underlying mechanisms and tailor it to your specific needs.
+
+
+ALGO
+
+PUSH
+step1: if Top = MAX - 1
+print "overflow"
+GOTOP step 4
+step2: set top = top +1
+step3: set Stack[TOP] = Elements
+step-4:END
+
+pop
+step1: if Top = NULL
+PRINT "stack is isEmpty"
+GOTO step3
+step2: return Stack[TOP]
+step:3: END
