@@ -11,13 +11,20 @@ public class Stack {
         this.top = -1;
     }
 
-    public void push(int value) {
-        if (isFull()) {
-            System.out.println("Stack is full. Cannot push element " + value);
-            return;
-        }
-        stackArray[++top] = value;
+/**
+ * Adds an element to the top of the stack.
+ *
+ * @param value the value to be added
+ * @return true if the element was added, false if the stack is full
+ */
+public boolean push(int value) {
+    if (isFull()) {
+        System.out.println("Stack is full. Cannot push element " + value);
+        return false;
     }
+    stackArray[++top] = value;
+    return true;
+}  
 
     public int pop() {
         if (isEmpty()) {
