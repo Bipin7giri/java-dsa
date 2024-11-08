@@ -21,6 +21,8 @@ public class LinkList {
         head = newNode;
     }
 
+    void 
+
     int size() {
         int count = 0;
         Node current = head;
